@@ -1,0 +1,9 @@
+No requirements, randint from random is the only import.
+
+This is a digital deck of 52 cards including methods for shuffling, a procedure to randomize a deck 
+so an element of chance is added. I used an algorithm called Fisher Yates 
+shuffle to shuffle the cards to avoid ordered sequences.
+
+I will likely build on this to develop more dynamic card games.
+
+Object-Orientated Programming with Python3 to randomize objects. David Ikin 2021
