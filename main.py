@@ -1,6 +1,5 @@
 from player import Player_a
 from game_deck import Deck
-from player import Player_a
 
 
 deck = Deck()
