@@ -16,7 +16,7 @@ class Player:
 
     def show_hand(self, name):
         for card in self.hand:
-            card.show(name)
+            card.show_card(name)
         for domino in self.tiles:
             domino.show_tile(name)
 

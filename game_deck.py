@@ -2,7 +2,6 @@ from random import randint
 from player import *
 from cards import Card
 
-
 class Deck:
     def __init__(self):
         self.cards = []
@@ -13,7 +12,7 @@ class Deck:
             for y_value in range(1, 14):
                 self.cards.append(Card(x_suit, y_value))
 
-    def show(self):
+    def show_card(self):
         for a in self.cards:
             a.show()
 
