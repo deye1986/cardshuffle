@@ -8,7 +8,7 @@ class Dominopool:
         self.buildset()
 
     def buildset(self):
-        for l_side in range(0, 6):
+        for l_side in ['Regular', 'Fire', 'Aqua', 'Forest', 'Metalic', 'Intellegence']:
             for r_side in range(0, 6):
                 self.set.append(Domino(l_side, r_side))
 

@@ -10,7 +10,23 @@ class Deck:
     def build(self):
         for x_suit in ['Spades', 'Diamonds', 'Hearts', 'Clubs']:
             for y_value in range(1, 14):
-                self.cards.append(Card(x_suit, y_value))
+                for card_value in range(1, 14):
+                    if y_value == 1:
+                        card_value = 'Ace'
+                        self.cards.append(Card(x_suit, y_value, card_value=card_value))
+                    elif y_value == 11:
+                        card_value = 'Jack'
+                        self.cards.append(Card(x_suit, y_value, card_value=card_value))
+                    elif y_value == 12:
+                        card_value = 'Queen'
+                        self.cards.append(Card(x_suit, y_value, card_value=card_value))
+                    elif y_value == 13:
+                        card_value = 'King'
+                        self.cards.append(Card(x_suit, y_value, card_value=card_value))
+                    else:
+                        card_value = None
+                        self.cards.append(Card(x_suit, y_value, card_value=card_value))
+
 
     def show_card(self):
         for a in self.cards:

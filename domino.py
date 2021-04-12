@@ -4,5 +4,5 @@ class Domino:
         self.right = right
         
     def show_tile(self, name):
-        print(f'{name} - Domino : R{self.right} and L{self.left}')
+        print(f'{name} - Tile : R{self.right} and {self.left} element.')
 

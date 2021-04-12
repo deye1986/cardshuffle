@@ -7,5 +7,8 @@ shuffle to shuffle the cards to avoid ordered sequences.
 I will likely build on this to develop more dynamic card games.
 
 --  added domino pool
+--  changed one side of the domioes to return a elemental style dynamic
+--  added code to output card values (ace jack queen king)
+--  code enhancements
 
 Object-Orientated Programming with Python3 to randomize objects. David Ikin 2021
