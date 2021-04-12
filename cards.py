@@ -4,6 +4,6 @@ class Card:
         self.value = val
 
     def show(self):
-        print(f'The {self.value} of {self.suit}. ')
+        print(f'Card   : The {self.value} of {self.suit}. ')
         
 
