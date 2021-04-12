@@ -9,13 +9,13 @@ set_of_tiles = Dominopool()
 set_of_tiles.shuffle_dominoes()
 
 
-dave = Player_a('Dave')
+dave = Player('Dave')
 dave.draw(deck)
 dave.draw_domino(set_of_tiles)
-dave.show_hand()
+dave.show_hand('Dave')
 
-shadow = Player_b('Shadow')
+shadow = Player('Shadow')
 shadow.draw(deck)
 shadow.draw_domino(set_of_tiles)
-shadow.show_hand()
+shadow.show_hand('Shadow')
 

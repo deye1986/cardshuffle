@@ -3,6 +3,6 @@ class Domino:
         self.left = left
         self.right = right
         
-    def show_tile(self):
-        print(f'Domino : R {self.right} and L{self.left}')
+    def show_tile(self, name):
+        print(f'{name} - Domino : R {self.right} and L{self.left}')
 
